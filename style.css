@@ -8,7 +8,7 @@
 #btn:focus,
 #unleash:focus,
 .power-bar:focus{
-    outline:0;
+  outline:0;
 }
 
 #btn{
@@ -16,7 +16,7 @@
   height: 60px;
   width: 150px;
   color: white;
-background-color: #ff7675;
+  background-color: #ff7675;
   border:none;
   cursor: pointer;
   border-radius: 40px;
@@ -24,14 +24,14 @@ background-color: #ff7675;
   top: 50px;
   left: 150px;
   transition-property: border-radius, opacity, background-color;
- transition-duration: 1s, 0.3s, 1s;
+  transition-duration: 1s, 0.3s, 1s;
   transition-delay: 0s, 0.2s, 0.1s;
 }
 
 #btn:hover {
 border-radius: 0px;
-animation: hilarious 0.5s;
-  background-color: #74b9ff;
+/* animation: hilarious 0.5s; */
+background-color: #74b9ff;
 }
 
 #unleash:hover{
@@ -98,8 +98,8 @@ animation: shake 0.5s;
   display:none;
   position: absolute;
   top: 320px;
-    width: 10px;
-    left: 153px;
+  width: 10px;
+  left: 153px;
   height: 60px;
   border-radius: 10px;
   border:none;
@@ -140,8 +140,6 @@ animation: shake 0.5s;
 
 /* END STYLING BUTTONS
  */
-
-
 
 body{
   background-color: #f5f6fa;
